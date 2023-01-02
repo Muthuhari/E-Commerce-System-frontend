@@ -84,9 +84,9 @@ return (
                             <option disabled selected>
                                 -- Select One --
                             </option>
-                            <option value="technology">Shose</option>
-                            <option value="tablets">Clothes</option>
-                            <option value="phones">Fancy Items</option>
+                            <option value="Shose">Shose</option>
+                            <option value="Clothes">Clothes</option>
+                            <option value="Fancy Items">Fancy Items</option>
                             <option value="laptops">laptops</option>
                         </Form.Select>
                     </Form.Group>
