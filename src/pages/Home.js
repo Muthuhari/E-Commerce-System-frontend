@@ -19,7 +19,7 @@ function Home() {
     }, []);
   return (
     <div>
-            <img src=" https://res.cloudinary.com/learn-code-10/image/upload/v1653947013/yqajnhqf7usk56zkwqi5.png" className="home-banner" />
+            <img src="https://res.cloudinary.com/drlx72mlc/image/upload/v1672598611/Shop_New_Products_Website_Banner_Brown_White_Tan_1_igctnp.png" />
             <div className="featured-products-container container mt-4">
                 <h2>Last products</h2>
                 {/* last products here */}
@@ -36,7 +36,7 @@ function Home() {
             </div>
             {/* sale banner */}
             <div className="sale__banner--container mt-4">
-                <img src="https://res.cloudinary.com/learn-code-10/image/upload/v1654093280/xkia6f13xxlk5xvvb5ed.png" />
+                <img src="https://res.cloudinary.com/drlx72mlc/image/upload/v1672600521/Shop_New_Products_Website_Banner_Brown_White_Tan_3_nchx3s.png" />
             </div>
             <div className="recent-products-container container mt-4">
             <h2>categories</h2>

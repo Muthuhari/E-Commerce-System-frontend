@@ -14,8 +14,7 @@ function CategoryPage() {
 
     useEffect(() => {
         setLoading(true);
-        axios
-            .get(`/products/category/${category}`)
+        axios.get(`/products/category/${category}`)
             .then(({ data }) => {
                 setLoading(false);
                 setProducts(data);
@@ -49,7 +48,7 @@ function CategoryPage() {
             <Row>
                 <Col md={{ span: 10, offset: 1 }}>
                     <div className="d-flex justify-content-center align-item-center flex-wrap">
-                   (productSearch.map((product) => (
+                   (productSearch.map((product) => ; (
                     <ProductPreview {...products} />
 
                 )))
